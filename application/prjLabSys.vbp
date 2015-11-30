@@ -12,6 +12,7 @@ UserControl=Controls\LynxGrid.ctl
 UserControl=Controls\ucXTab.ctl
 UserControl=Controls\UserControl1.ctl
 Class=ntPrinter; Classes\ntPrinter.cls
+UserControl=Controls\xFrame.ctl
 Startup="fPhysician"
 HelpFile=""
 Command32=""
