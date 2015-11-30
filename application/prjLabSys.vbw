@@ -1,0 +1,8 @@
+fPhysician = 100, 100, 951, 551, C, 25, 25, 900, 476, C
+mConnection = 50, 50, 925, 501, C
+fMain = 0, 0, 0, 0, C, 100, 100, 975, 551, C
+isButton = 0, 0, 0, 0, C, 25, 25, 876, 476, C
+LynxGrid = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+ucXTab = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+ACPRibbon = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+ntPrinter = 0, 0, 0, 0, C
