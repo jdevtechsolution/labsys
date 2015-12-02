@@ -1,12 +1,15 @@
 Attribute VB_Name = "mConnection"
-'objects
-Public dbCon As New ADODB.Connection
-
-
-
 
 Sub Main()
     fMain.Show 1
+End Sub
+Public Sub InitializeConnectionString()
+    strDriver = "MySQL ODBC 3.51 Driver"
+    strServer = "localhost"
+    strPort = "3306"
+    strDatabase = "labsys"
+    strUser = "root"
+    strPassword = "jojosoliman"
 End Sub
 
 Public Sub OpenConnection()
@@ -30,9 +33,9 @@ Err_Handler:
 End Sub
 
 
-Public Sub OpenTable(ByVal sSQL As String, ByVal RS As ADODB.Recordset)
+Public Sub OpenTable(ByVal sSQL As String, ByVal rs As ADODB.Recordset)
 'purpose: open table from the database base on the sql statement pass and transfer it on the recordset
-    With RS
+    With rs
         If .State = adStateOpen Then .Close
         .ActiveConnection = dbCon
         .CursorLocation = adUseClient
